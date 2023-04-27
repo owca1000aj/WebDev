@@ -74,31 +74,10 @@ frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media
 <br>
 
 <h5>Now for this random Tableau graph! I'm partial to the storm Danielle, because I had an elementary school friend with that name.</h5>
-<head>
-    <title>Basic Embed</title>
 
-    <script type="text/javascript"
-	    src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></script>
-    <script type="text/javascript">
-        function initViz() {
-            var containerDiv = document.getElementById("vizContainer"),
-                url = "http://public.tableau.com/views/RegionalSampleWorkbook/Storms",
-                options = {
-                    hideTabs: true,
-                    onFirstInteractive: function () {
-                        console.log("Run this code when the viz has finished loading.");
-                    }
-                };
+    <h1>My Tableau Dashboard</h1>
+    <iframe src="https://public.tableau.com/javascripts/api/tableau-2.min.js"></iframe>
 
-            var viz = new tableau.Viz(containerDiv, url, options);
-            // Create a viz object and embed it in the container div.
-        }
-    </script>
-</head>
-
-<body onload="initViz();">
-    <div id="vizContainer" style="width:800px; height:700px;"></div>
-</body>
 
 <a href="#top">Go to Top</a>
 
